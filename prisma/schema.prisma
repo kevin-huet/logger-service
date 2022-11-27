@@ -16,4 +16,5 @@ model Log {
   description String?
   service     String?
   type        String?  @default("INFO")
+  createdAt   DateTime @default(now())
 }
